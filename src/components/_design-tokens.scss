@@ -1,0 +1,267 @@
+/*
+    Colors:
+*/
+
+
+/*
+    Font Styles:
+*/
+
+/* H1 - Red font style */
+$font-h-1-red-font-size: 26px;
+$font-h-1-red-line-height: normal;
+$font-h-1-red-text-align: start;
+$font-h-1-red-color: #eb0a1e;
+$font-h-1-red-font-style: normal;
+$font-h-1-red-font-weight: bold;
+$font-h-1-red-font-family: Toyota Display;
+
+@mixin font-h-1-red () {
+  font-size: $font-h-1-red-font-size;
+  line-height: $font-h-1-red-line-height;
+  text-align: $font-h-1-red-text-align;
+  color: $font-h-1-red-color;
+  font-style: $font-h-1-red-font-style;
+  font-weight: $font-h-1-red-font-weight;
+  font-family: $font-h-1-red-font-family;
+}
+
+/* H1 - Black font style */
+$font-h-1-black-font-size: 26px;
+$font-h-1-black-line-height: normal;
+$font-h-1-black-text-align: start;
+$font-h-1-black-color: #000000;
+$font-h-1-black-font-style: normal;
+$font-h-1-black-font-weight: bold;
+$font-h-1-black-font-family: Toyota Display;
+
+@mixin font-h-1-black () {
+  font-size: $font-h-1-black-font-size;
+  line-height: $font-h-1-black-line-height;
+  text-align: $font-h-1-black-text-align;
+  color: $font-h-1-black-color;
+  font-style: $font-h-1-black-font-style;
+  font-weight: $font-h-1-black-font-weight;
+  font-family: $font-h-1-black-font-family;
+}
+
+/* H1 - White font style */
+$font-h-1-white-font-size: 26px;
+$font-h-1-white-line-height: normal;
+$font-h-1-white-text-align: left;
+$font-h-1-white-color: #ffffff;
+$font-h-1-white-font-style: normal;
+$font-h-1-white-font-weight: bold;
+$font-h-1-white-font-family: Toyota Display;
+
+@mixin font-h-1-white () {
+  font-size: $font-h-1-white-font-size;
+  line-height: $font-h-1-white-line-height;
+  text-align: $font-h-1-white-text-align;
+  color: $font-h-1-white-color;
+  font-style: $font-h-1-white-font-style;
+  font-weight: $font-h-1-white-font-weight;
+  font-family: $font-h-1-white-font-family;
+}
+
+/* H2 - White font style */
+$font-h-2-white-font-size: 22px;
+$font-h-2-white-line-height: normal;
+$font-h-2-white-text-align: start;
+$font-h-2-white-color: #ffffff;
+$font-h-2-white-font-style: normal;
+$font-h-2-white-font-weight: 400;
+$font-h-2-white-font-family: Roboto;
+
+@mixin font-h-2-white () {
+  font-size: $font-h-2-white-font-size;
+  line-height: $font-h-2-white-line-height;
+  text-align: $font-h-2-white-text-align;
+  color: $font-h-2-white-color;
+  font-style: $font-h-2-white-font-style;
+  font-weight: $font-h-2-white-font-weight;
+  font-family: $font-h-2-white-font-family;
+}
+
+/* H2 - Red font style */
+$font-h-2-red-font-size: 22px;
+$font-h-2-red-line-height: normal;
+$font-h-2-red-text-align: left;
+$font-h-2-red-color: #eb0a1e;
+$font-h-2-red-font-style: normal;
+$font-h-2-red-font-weight: bold;
+$font-h-2-red-font-family: Roboto;
+
+@mixin font-h-2-red () {
+  font-size: $font-h-2-red-font-size;
+  line-height: $font-h-2-red-line-height;
+  text-align: $font-h-2-red-text-align;
+  color: $font-h-2-red-color;
+  font-style: $font-h-2-red-font-style;
+  font-weight: $font-h-2-red-font-weight;
+  font-family: $font-h-2-red-font-family;
+}
+
+/* Annotation - White font style */
+$font-annotation-white-font-size: 12px;
+$font-annotation-white-line-height: normal;
+$font-annotation-white-text-align: start;
+$font-annotation-white-color: #ffffff;
+$font-annotation-white-letter-spacing: 0.8px;
+$font-annotation-white-text-transform: uppercase;
+$font-annotation-white-font-style: normal;
+$font-annotation-white-font-weight: bold;
+$font-annotation-white-font-family: Toyota Display;
+
+@mixin font-annotation-white () {
+  font-size: $font-annotation-white-font-size;
+  line-height: $font-annotation-white-line-height;
+  text-align: $font-annotation-white-text-align;
+  color: $font-annotation-white-color;
+  letter-spacing: $font-annotation-white-letter-spacing;
+  text-transform: $font-annotation-white-text-transform;
+  font-style: $font-annotation-white-font-style;
+  font-weight: $font-annotation-white-font-weight;
+  font-family: $font-annotation-white-font-family;
+}
+
+/* Copy White font style */
+$font-copy-white-font-size: 12px;
+$font-copy-white-line-height: 15px;
+$font-copy-white-text-align: start;
+$font-copy-white-color: #ffffff;
+$font-copy-white-letter-spacing: 0.8px;
+$font-copy-white-font-style: normal;
+$font-copy-white-font-weight: 400;
+$font-copy-white-font-family: Roboto;
+
+@mixin font-copy-white () {
+  font-size: $font-copy-white-font-size;
+  line-height: $font-copy-white-line-height;
+  text-align: $font-copy-white-text-align;
+  color: $font-copy-white-color;
+  letter-spacing: $font-copy-white-letter-spacing;
+  font-style: $font-copy-white-font-style;
+  font-weight: $font-copy-white-font-weight;
+  font-family: $font-copy-white-font-family;
+}
+
+/* Annotation Black font style */
+$font-annotation-black-font-size: 12px;
+$font-annotation-black-line-height: normal;
+$font-annotation-black-text-align: start;
+$font-annotation-black-color: #000000;
+$font-annotation-black-letter-spacing: 0.8px;
+$font-annotation-black-font-style: normal;
+$font-annotation-black-font-weight: bold;
+$font-annotation-black-font-family: Toyota Display;
+
+@mixin font-annotation-black () {
+  font-size: $font-annotation-black-font-size;
+  line-height: $font-annotation-black-line-height;
+  text-align: $font-annotation-black-text-align;
+  color: $font-annotation-black-color;
+  letter-spacing: $font-annotation-black-letter-spacing;
+  font-style: $font-annotation-black-font-style;
+  font-weight: $font-annotation-black-font-weight;
+  font-family: $font-annotation-black-font-family;
+}
+
+/* Annotation - Light Grey font style */
+$font-annotation-light-grey-font-size: 12px;
+$font-annotation-light-grey-line-height: normal;
+$font-annotation-light-grey-text-align: start;
+$font-annotation-light-grey-color: #aaabac;
+$font-annotation-light-grey-letter-spacing: 0.8px;
+$font-annotation-light-grey-font-style: normal;
+$font-annotation-light-grey-font-weight: bold;
+$font-annotation-light-grey-font-family: Toyota Display;
+
+@mixin font-annotation-light-grey () {
+  font-size: $font-annotation-light-grey-font-size;
+  line-height: $font-annotation-light-grey-line-height;
+  text-align: $font-annotation-light-grey-text-align;
+  color: $font-annotation-light-grey-color;
+  letter-spacing: $font-annotation-light-grey-letter-spacing;
+  font-style: $font-annotation-light-grey-font-style;
+  font-weight: $font-annotation-light-grey-font-weight;
+  font-family: $font-annotation-light-grey-font-family;
+}
+
+/* Annotation Grey font style */
+$font-annotation-grey-font-size: 12px;
+$font-annotation-grey-line-height: normal;
+$font-annotation-grey-text-align: left;
+$font-annotation-grey-color: #58595b;
+$font-annotation-grey-letter-spacing: 0.8px;
+$font-annotation-grey-font-style: normal;
+$font-annotation-grey-font-weight: bold;
+$font-annotation-grey-font-family: Toyota Display;
+
+@mixin font-annotation-grey () {
+  font-size: $font-annotation-grey-font-size;
+  line-height: $font-annotation-grey-line-height;
+  text-align: $font-annotation-grey-text-align;
+  color: $font-annotation-grey-color;
+  letter-spacing: $font-annotation-grey-letter-spacing;
+  font-style: $font-annotation-grey-font-style;
+  font-weight: $font-annotation-grey-font-weight;
+  font-family: $font-annotation-grey-font-family;
+}
+
+/* Feature - Red font style */
+$font-feature-red-font-size: 12px;
+$font-feature-red-line-height: normal;
+$font-feature-red-text-align: start;
+$font-feature-red-color: #eb0a1e;
+$font-feature-red-font-style: normal;
+$font-feature-red-font-weight: bold;
+$font-feature-red-font-family: Roboto;
+
+@mixin font-feature-red () {
+  font-size: $font-feature-red-font-size;
+  line-height: $font-feature-red-line-height;
+  text-align: $font-feature-red-text-align;
+  color: $font-feature-red-color;
+  font-style: $font-feature-red-font-style;
+  font-weight: $font-feature-red-font-weight;
+  font-family: $font-feature-red-font-family;
+}
+
+/* Feature - White font style */
+$font-feature-white-font-size: 12px;
+$font-feature-white-line-height: normal;
+$font-feature-white-text-align: start;
+$font-feature-white-color: #ffffff;
+$font-feature-white-font-style: normal;
+$font-feature-white-font-weight: bold;
+$font-feature-white-font-family: Roboto;
+
+@mixin font-feature-white () {
+  font-size: $font-feature-white-font-size;
+  line-height: $font-feature-white-line-height;
+  text-align: $font-feature-white-text-align;
+  color: $font-feature-white-color;
+  font-style: $font-feature-white-font-style;
+  font-weight: $font-feature-white-font-weight;
+  font-family: $font-feature-white-font-family;
+}
+
+/* Feature - Grey font style */
+$font-feature-grey-font-size: 12px;
+$font-feature-grey-line-height: normal;
+$font-feature-grey-text-align: left;
+$font-feature-grey-color: #2f2f31;
+$font-feature-grey-font-style: normal;
+$font-feature-grey-font-weight: bold;
+$font-feature-grey-font-family: Roboto;
+
+@mixin font-feature-grey () {
+  font-size: $font-feature-grey-font-size;
+  line-height: $font-feature-grey-line-height;
+  text-align: $font-feature-grey-text-align;
+  color: $font-feature-grey-color;
+  font-style: $font-feature-grey-font-style;
+  font-weight: $font-feature-grey-font-weight;
+  font-family: $font-feature-grey-font-family;
+}
