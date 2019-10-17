@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   padding: 10px 40px;
-  border-radius: $border-radius;
+  border-radius: $main-cta-border-radius;
   cursor: pointer;
   user-select: none;
   transition: background-color 0.2s, color 0.2s, width 0.2s, box-shadow 0.2s cubic-bezier(0.2, 0.91, 0.85, 0.96) 0s;
@@ -21,7 +21,7 @@
   font-size: 14px;
   font-weight: bold;
 
-  
+  @include font-feature-white();
 }
 
 .c-button__with-icon {
@@ -56,7 +56,7 @@
 }
 
 .c-button {
-  background-color: $color-primary;
+  background-color: $main-cta-background-color;
   color: $color-white;
 
   path {

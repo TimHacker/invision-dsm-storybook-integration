@@ -1,3 +1,4 @@
 node_modules
 .dsmrc
 .dsm
+storybook-static
