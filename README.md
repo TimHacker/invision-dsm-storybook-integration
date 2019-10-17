@@ -31,10 +31,10 @@ Follow the steps documented in the [Getting started with live components](https:
 
 You'll need to setup the keys for your DSM project and then run:
 
-`
+```
 npm run dsm-storybook:publish
+```
 
-`
 ## License
 
 MIT 
